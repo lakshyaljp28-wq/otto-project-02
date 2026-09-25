@@ -255,14 +255,19 @@ if valid:
          st.markdown("### Otto Cycle Thermal Efficiency")
          st.latex(r"\eta = 1-\frac{1}{r^{\gamma-1}}")
 
-### Assumptions
-- Air-standard Otto cycle
-- Ideal gas
-- Constant specific heats
-- \(\gamma=1.4\)
-- \(R=287\ J/(kg\cdot K)\)
-- \(C_v=717.5\ J/(kg\cdot K)\)
-""")
+    with st.expander("Engineering Assumptions"):
+         st.markdown("""
+         - Air-standard Otto cycle.
+         - Air behaves as an ideal gas.
+         - Specific heats are assumed constant.
+         - Ratio of specific heats, γ = 1.4.
+         - Compression process is isentropic.
+         - Expansion process is isentropic.
+         - Heat addition occurs at constant volume.
+         - Heat rejection occurs at constant volume.
+         - No heat loss is considered.
+         - No friction or mechanical losses are considered.
+         """)
 
     st.subheader("💡 Engineering Interpretation")
     st.write(
