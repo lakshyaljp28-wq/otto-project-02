@@ -232,28 +232,28 @@ if valid:
 
     with st.expander("Engineering Formulas Used"):
 
-    st.markdown("### Displacement Volume")
-    st.latex(r"V_d = \frac{\pi}{4}D^2L")
+         st.markdown("### Displacement Volume")
+         st.latex(r"V_d = \frac{\pi}{4}D^2L")
 
-    st.markdown("### Clearance Volume")
-    st.latex(r"V_c = \frac{V_d}{r-1}")
+         st.markdown("### Clearance Volume")
+         st.latex(r"V_c = \frac{V_d}{r-1}")
 
-    st.markdown("### Compression Ratio")
-    st.latex(r"r = \frac{V_1}{V_2}")
+         st.markdown("### Compression Ratio")
+         st.latex(r"r = \frac{V_1}{V_2}")
 
-    st.markdown("### Isentropic Compression")
-    st.latex(r"T_2 = T_1 r^{\gamma-1}")
-    st.latex(r"P_2 = P_1 r^\gamma")
+         st.markdown("### Isentropic Compression")
+         st.latex(r"T_2 = T_1 r^{\gamma-1}")
+         st.latex(r"P_2 = P_1 r^\gamma")
 
-    st.markdown("### Constant Volume Heat Addition")
-    st.latex(r"\frac{P_3}{P_2} = \frac{T_3}{T_2}")
+         st.markdown("### Constant Volume Heat Addition")
+         st.latex(r"\frac{P_3}{P_2} = \frac{T_3}{T_2}")
 
-    st.markdown("### Isentropic Expansion")
-    st.latex(r"T_4 = \frac{T_3}{r^{\gamma-1}}")
-    st.latex(r"P_4 = \frac{P_3}{r^\gamma}")
+         st.markdown("### Isentropic Expansion")
+         st.latex(r"T_4 = \frac{T_3}{r^{\gamma-1}}")
+         st.latex(r"P_4 = \frac{P_3}{r^\gamma}")
 
-    st.markdown("### Otto Cycle Thermal Efficiency")
-    st.latex(r"\eta = 1-\frac{1}{r^{\gamma-1}}")
+         st.markdown("### Otto Cycle Thermal Efficiency")
+         st.latex(r"\eta = 1-\frac{1}{r^{\gamma-1}}")
 
 ### Assumptions
 - Air-standard Otto cycle
